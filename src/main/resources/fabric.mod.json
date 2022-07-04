@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sweepimmunestands",
+  "version": "${version}",
+
+  "name": "Sweep immune stands",
+  "description": "Makes armor stands immune to sweep attacks but still affects surrounding entities.",
+  "authors": [
+    "VelizarBG"
+  ],
+  "contact": {
+    "sources": "https://github.com/VelizarBG/sweepimmunestands",
+    "issues": "https://github.com/VelizarBG/sweepimmunestands/issues"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+
+  "mixins": [
+    "sweepimmunestands.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.19",
+    "java": ">=17"
+  }
+}
